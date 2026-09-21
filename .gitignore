@@ -1,0 +1,11 @@
+# Ignore the raw data files
+*.pdf
+*.xlsx
+*.csv
+Mid-Year-Review-pg-44-dimensions.txt
+
+# Ignore local python virtual environments and cache
+__pycache__/
+.env
+venv/
+.venv/
