@@ -88,5 +88,7 @@ with pdfplumber.open("Mid-Year-Review-2026-1-1.pdf") as pdf:
     df_toc["Page Number"] = pd.to_numeric(df_toc["Page Number"], errors="coerce").astype("Int64")
     print(df_toc.to_string(index=False))
 
+    df_toc.to_csv("Mid_Year_Review_TOC.csv", index=False)
+
 
 

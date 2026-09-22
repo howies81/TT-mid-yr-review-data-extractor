@@ -2,6 +2,7 @@
 *.pdf
 *.xlsx
 *.csv
+*.docx
 Mid-Year-Review-pg-44-dimensions.txt
 
 # Ignore local python virtual environments and cache
