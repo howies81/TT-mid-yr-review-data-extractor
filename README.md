@@ -12,7 +12,7 @@ This repository provides an **automated alternative**. Using a real-world case s
 
 * **Multi-Page Layout Looping:** Seamlessly processes varying structural flows across an unlimited page count without hitting buffer walls.
 * **Line-Wrap Stitching:** Advanced algorithmic string buffering that automatically detects and glues together broken multi-line sentences (e.g., long ministry and entity names).
-* **Text Normalization Engine:** Employs targeted Regular Expressions (re) and lookup maps to resolve classic PDF spacing anomalies (such as smashed words like andMinistry).
+* **Text Normalisation Engine:** Employs targeted Regular Expressions (re) and lookup maps to resolve classic PDF spacing anomalies (such as smashed words like andMinistry).
 * **Multi-Tab Excel Generation:** Leverages pandas and openpyxl engines to cleanly write isolated data streams into separate, descriptive sheets (Recurrent Expenditure vs. Development Expenditure) with native indexing suppressed.
 
 ### 🛠️ The Tech Stack
@@ -24,15 +24,11 @@ This repository provides an **automated alternative**. Using a real-world case s
 
 When executed, the script flattens fragmented layout arrays into an immaculate, client-ready matrix: 
 
-Head NumberEntityBudget Amount
-**01**
-President$1.0 million
-**03**
-Judiciary$39.15 million
-**07**
-Statutory Authorities Service Commission$285 million
-**23**
-Office of the Attorney General and Ministry of Legal Affairs$75 million
+Head Number  Entity                                                        Budget Amount
+**01**       President                                                     $1.0 million
+**03**       Judiciary                                                     $39.15 million
+**07**       Statutory Authorities Service Commission                      $285 million
+**23**       Office of the Attorney General and Ministry of Legal Affairs  $75 million
 
 ### 📈 Looking for Data Automation Services?
 
